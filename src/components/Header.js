@@ -1,9 +1,9 @@
 import React from "react";
 
-function Header(props) {
+function Header({id,content}) {
     return (
-       <div className="main">
-         {props.id}
+       <div className="main" id={id}>
+        <h1>{content}</h1>
            </div>
     
     );

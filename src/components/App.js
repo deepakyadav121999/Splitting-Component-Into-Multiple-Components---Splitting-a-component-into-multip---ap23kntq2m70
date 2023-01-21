@@ -8,9 +8,9 @@ function App() {
             {/* <header id="my-header">This is the header</header>
             <main id="my-main">This is the main</main>
             <footer id="my-footer">This is the footer</footer> */}
-            <Header/>
-            <Main/>
-            <Footer/>
+            <Header id="header" content="This is the header"/>
+            <Main id="main" content="This is the main"/>
+            <Footer id="footer"  content="This is the footer"/>
 
             
         </div>

@@ -1,11 +1,10 @@
 import React from "react";
 
-function Footer(props) {
+function Footer({id,content}) {
     return (
-    
-      <div className="main">
-      {props.id}
-      </div>
+      <div className="main" id={id}>
+      <h1>{content}</h1>
+         </div>
      
     );
 }
