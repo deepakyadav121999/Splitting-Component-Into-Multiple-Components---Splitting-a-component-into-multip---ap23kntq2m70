@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer({id,content}) {
     return (
-      <main id={id}>{content}</main>
+      <footer id={id}>{content}</footer>
      
     );
 }

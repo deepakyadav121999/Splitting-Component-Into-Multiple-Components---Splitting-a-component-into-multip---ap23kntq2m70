@@ -3,7 +3,7 @@ import React from "react";
 function Main({id,content}) {
     return (
 
-        <footer id={id}>{content}</footer>
+        <main id={id}>{content}</main>
 
     );
 }
