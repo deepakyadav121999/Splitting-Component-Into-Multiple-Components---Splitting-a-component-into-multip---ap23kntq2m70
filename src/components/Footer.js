@@ -1,9 +1,9 @@
 import React from "react";
 
-function Footer({id,content}) {
+function Footer(props) {
     return (
       <div id="footer">
-      <footer id={id}>{content}</footer>
+      <footer id={props.id}>{props.content}</footer>
       </div>
     );
 }

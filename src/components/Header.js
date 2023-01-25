@@ -1,9 +1,9 @@
 import React from "react";
 
-function Header({id,content}) {
+function Header(props) {
     return (
         <div id="header">
-        <header id={id}>{content}</header>
+        <header id={props.id}>{props.content}</header>
         </div>
     );
 }

@@ -1,9 +1,9 @@
 import React from "react";
 
-function Main({id,content}) {
+function Main(props) {
     return (
         <div id="main">
-        <main id={id}>{content}</main>
+        <main id={props.id}>{props.content}</main>
         </div>
     );
 }
